@@ -1,3 +1,12 @@
+learn_react_js
+====
+Project description:<br>
+This project is for entry level learners to create react js app.</p>
+Develop environment:<br>
+OS: `macOS Catalina`    `Version 10.15.6` <br>
+IDE: `Visual Studio code` & `Jetbrains Webstorm` <br>
+When you clone this repository into your computer, make sure you have the latest version of node.
+In the project dictionary run command `npm install` to build environment. Then run `npm start` to start the project.<br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
