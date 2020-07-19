@@ -12,20 +12,23 @@ import * as serviceWorker from './serviceWorker';
 // );
 let a = [10,20,30];
 //let ele = <div id='1' title='1'>{a}</div>
-ReactDOM.render(a.map(x=><li>{x}</li>),
-    document.getElementById('root'))
+// ReactDOM.render(a.map(x=><li>{x}</li>),
+//     document.getElementById('root'))
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
 
-function showArray(arr) {
+function ShowArray(prop) {
     let i = [];
-    a.forEach(x=>(
+    prop.arr.forEach(x=>(
         i.push(<li>{x}</li>)
     ))
     return i;
 }
 
-ReactDOM.render(<div>{showArray(a)}</div>,
+ReactDOM.render(<div><ShowArray arr={a} /></div>,
     document.getElementById('root'))
+
+//
+//reverse String
